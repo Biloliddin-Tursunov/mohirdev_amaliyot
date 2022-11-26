@@ -1,0 +1,62 @@
+{
+  "formData": [
+    {
+      "name": "telba",
+      "phone": "97-596-43-44",
+      "id": 1
+    },
+    {
+      "name": "telba",
+      "phone": "97-596-43-44",
+      "id": 2
+    }
+  ],
+  "planMenu": [
+    {
+      "imgUrl": "img/tabs/1.png",
+      "imgAlt": "vegy",
+      "title": "Plan Usual",
+      "decription": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit nesciunt facere, sequi exercitationem praesentium ab cupiditate beatae debitis perspiciatis itaque quaerat id modi corporis delectus ratione nobis harum voluptatum in.",
+      "price": 10,
+      "parentSelector": ".menu .container"
+    },
+    {
+      "imgUrl": "img/tabs/2.jpg",
+      "imgAlt": "vegy",
+      "title": "Plan Premium",
+      "decription": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit nesciunt facere, sequi exercitationem praesentium ab cupiditate beatae debitis perspiciatis itaque quaerat id modi corporis delectus ratione nobis harum voluptatum in.",
+      "price": 10,
+      "parentSelector": ".menu .container"
+    },
+    {
+      "imgUrl": "img/tabs/3.jpg",
+      "imgAlt": "vegy",
+      "title": "Plan VIP",
+      "decription": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit nesciunt facere, sequi exercitationem praesentium ab cupiditate beatae debitis perspiciatis itaque quaerat id modi corporis delectus ratione nobis harum voluptatum in.",
+      "price": 10,
+      "parentSelector": ".menu .container"
+    }
+  ],
+  "slides": [
+    {
+      "bgImg": "img/slider/slider1.jpg",
+      "slideDesc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi iure, nam fuga vero eum numquam autem! Pariatur laborum voluptas adipisci debitis, atque ut fugit aperiam minus porro labore consectetur placeat eius aliquam, dicta, maiores ea numquam esse cum distinctio laboriosam non hic. Possimus est ipsam unde, nulla voluptas, suscipit vitae eligendi velit laboriosam eveniet quae eaque? Perferendis at ullam accusantium numquam ratione, cum repellendus labore ea tempora. Deserunt, unde optio qui at vero nisi non ipsum cumque numquam minima minus tempora nesciunt aspernatur omnis consequuntur, itaque adipisci et explicabo! Sint repudiandae dolores, nobis consectetur quasi eos. Accusantium alias quisquam qui id eligendi nisi error. Quo perferendis sapiente provident dolores sequi, fugit dignissimos facilis eaque laudantium minima nisi enim maxime! A atque labore accusantium, dolore non deserunt sunt quos incidunt, hic iste quidem animi? Culpa repellat reprehenderit minus qui quam reiciendis, maiores velit totam earum iste, modi temporibus vitae hic et esse aspernatur perferendis ipsa porro ad consectetur laborum. Ratione perferendis minima ad nostrum earum quos vero ab, amet est incidunt."
+    },
+    {
+      "bgImg": "img/slider/slider2.jpg",
+      "slideDesc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi iure, nam fuga vero eum numquam autem! Pariatur laborum voluptas adipisci debitis, atque ut fugit aperiam minus porro labore consectetur placeat eius aliquam, dicta, maiores ea numquam esse cum distinctio laboriosam non hic. Possimus est ipsam unde, nulla voluptas, suscipit vitae eligendi velit laboriosam eveniet quae eaque? Perferendis at ullam accusantium numquam ratione, cum repellendus labore ea tempora. Deserunt, unde optio qui at vero nisi non ipsum cumque numquam minima minus tempora nesciunt aspernatur omnis consequuntur, itaque adipisci et explicabo! Sint repudiandae dolores, nobis consectetur quasi eos. Accusantium alias quisquam qui id eligendi nisi error. Quo perferendis sapiente provident dolores sequi, fugit dignissimos facilis eaque laudantium minima nisi enim maxime! A atque labore accusantium, dolore non deserunt sunt quos incidunt, hic iste quidem animi? Culpa repellat reprehenderit minus qui quam reiciendis, maiores velit totam earum iste, modi temporibus vitae hic et esse aspernatur perferendis ipsa porro ad consectetur laborum. Ratione perferendis minima ad nostrum earum quos vero ab, amet est incidunt."
+    },
+    {
+      "bgImg": "img/slider/slider3.jpg",
+      "slideDesc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi iure, nam fuga vero eum numquam autem! Pariatur laborum voluptas adipisci debitis, atque ut fugit aperiam minus porro labore consectetur placeat eius aliquam, dicta, maiores ea numquam esse cum distinctio laboriosam non hic. Possimus est ipsam unde, nulla voluptas, suscipit vitae eligendi velit laboriosam eveniet quae eaque? Perferendis at ullam accusantium numquam ratione, cum repellendus labore ea tempora. Deserunt, unde optio qui at vero nisi non ipsum cumque numquam minima minus tempora nesciunt aspernatur omnis consequuntur, itaque adipisci et explicabo! Sint repudiandae dolores, nobis consectetur quasi eos. Accusantium alias quisquam qui id eligendi nisi error. Quo perferendis sapiente provident dolores sequi, fugit dignissimos facilis eaque laudantium minima nisi enim maxime! A atque labore accusantium, dolore non deserunt sunt quos incidunt, hic iste quidem animi? Culpa repellat reprehenderit minus qui quam reiciendis, maiores velit totam earum iste, modi temporibus vitae hic et esse aspernatur perferendis ipsa porro ad consectetur laborum. Ratione perferendis minima ad nostrum earum quos vero ab, amet est incidunt."
+    },
+    {
+      "bgImg": "img/slider/slider4.jpg",
+      "slideDesc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi iure, nam fuga vero eum numquam autem! Pariatur laborum voluptas adipisci debitis, atque ut fugit aperiam minus porro labore consectetur placeat eius aliquam, dicta, maiores ea numquam esse cum distinctio laboriosam non hic. Possimus est ipsam unde, nulla voluptas, suscipit vitae eligendi velit laboriosam eveniet quae eaque? Perferendis at ullam accusantium numquam ratione, cum repellendus labore ea tempora. Deserunt, unde optio qui at vero nisi non ipsum cumque numquam minima minus tempora nesciunt aspernatur omnis consequuntur, itaque adipisci et explicabo! Sint repudiandae dolores, nobis consectetur quasi eos. Accusantium alias quisquam qui id eligendi nisi error. Quo perferendis sapiente provident dolores sequi, fugit dignissimos facilis eaque laudantium minima nisi enim maxime! A atque labore accusantium, dolore non deserunt sunt quos incidunt, hic iste quidem animi? Culpa repellat reprehenderit minus qui quam reiciendis, maiores velit totam earum iste, modi temporibus vitae hic et esse aspernatur perferendis ipsa porro ad consectetur laborum. Ratione perferendis minima ad nostrum earum quos vero ab, amet est incidunt."
+    },
+    {
+      "bgImg": "img/slider/slider5.jpg",
+      "slideDesc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi iure, nam fuga vero eum numquam autem! Pariatur laborum voluptas adipisci debitis, atque ut fugit aperiam minus porro labore consectetur placeat eius aliquam, dicta, maiores ea numquam esse cum distinctio laboriosam non hic. Possimus est ipsam unde, nulla voluptas, suscipit vitae eligendi velit laboriosam eveniet quae eaque? Perferendis at ullam accusantium numquam ratione, cum repellendus labore ea tempora. Deserunt, unde optio qui at vero nisi non ipsum cumque numquam minima minus tempora nesciunt aspernatur omnis consequuntur, itaque adipisci et explicabo! Sint repudiandae dolores, nobis consectetur quasi eos. Accusantium alias quisquam qui id eligendi nisi error. Quo perferendis sapiente provident dolores sequi, fugit dignissimos facilis eaque laudantium minima nisi enim maxime! A atque labore accusantium, dolore non deserunt sunt quos incidunt, hic iste quidem animi? Culpa repellat reprehenderit minus qui quam reiciendis, maiores velit totam earum iste, modi temporibus vitae hic et esse aspernatur perferendis ipsa porro ad consectetur laborum. Ratione perferendis minima ad nostrum earum quos vero ab, amet est incidunt."
+    }
+  ]
+}

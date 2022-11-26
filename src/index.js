@@ -9,22 +9,21 @@ import slider from "./modules/slider";
 window.addEventListener("DOMContentLoaded", () => {
   //loader
   loader();
-
-  //tab
-  tab();
-
-  //modal
-  modal();
-
-  //planMenu
-  planMenu();
-
-  //form
-  form();
-
-  //timer
-  timer();
-
-  //slider
-  slider();
 });
+//tab
+tab();
+
+//modal
+modal();
+
+//planMenu
+planMenu();
+
+//form
+form();
+
+//timer
+timer();
+
+//slider
+slider();

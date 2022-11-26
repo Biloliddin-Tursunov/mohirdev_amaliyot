@@ -1,6 +1,8 @@
-export default function form() {
+import axios from "axios";
+
+export default function form(formSelector) {
   //form
-  const forms = document.querySelectorAll("form");
+  const forms = document.querySelectorAll(formSelector);
 
   forms.forEach((form) => {
     bindPostForm(form);
@@ -12,32 +14,30 @@ export default function form() {
     error: "ERROR",
   };
 
-  async function postForm(url, data) {
-    const res = await fetch(url, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: data,
-    });
-
-    return await res.json();
+  async function postData(url, json) {
+    const res = await axios.post(url, json);
+    return await res;
   }
 
   function bindPostForm(form) {
     form.addEventListener("submit", (e) => {
       e.preventDefault();
 
+      // showThanksModal(msg.loading);
+
       const formData = new FormData(form);
 
-      const json = JSON.stringify(Object.fromEntries(formData.entries()));
+      let obj = {};
 
-      postForm("http://localhost:3000/formData", json)
-        .then((res) => {
-          console.log(res);
+      formData.forEach((val, key) => {
+        obj[key] = val;
+      });
+
+      postData("http://localhost:3000/formData", obj)
+        .then(({ data }) => {
           showThanksModal(msg.succsess);
         })
-        .catch(() => {
+        .catch((err) => {
           showThanksModal(msg.error);
         })
         .finally(() => {
@@ -50,7 +50,6 @@ export default function form() {
     const prevModalDialog = document.querySelector(".modal__dialog");
 
     prevModalDialog.classList.add("hide");
-    open();
 
     const thanksModal = document.createElement("div");
     thanksModal.classList.add("modal__dialog");

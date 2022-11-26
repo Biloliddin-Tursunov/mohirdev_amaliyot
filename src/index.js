@@ -8,23 +8,29 @@ import slider from "./modules/slider";
 
 window.addEventListener("DOMContentLoaded", () => {
   //loader
-  loader();
+  loader(".loader");
 
   //tab
-  tab();
+  tab(".tabheader__items", ".tabheader__item", ".tabcontent");
 
   //modal
-  modal();
+  modal(".modal", "[data-modal]");
 
   //planMenu
-  planMenu();
+  planMenu(".menu .container");
 
   //form
-  form();
+  form("form");
 
   //timer
-  timer();
+  timer(".timer", "2023-01-01");
 
   //slider
-  slider();
+  slider(
+    ".offer__slider-wrapper",
+    ".offer__slider-next",
+    ".offer__slider-prev",
+    "#current",
+    "#total"
+  );
 });

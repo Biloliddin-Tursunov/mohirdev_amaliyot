@@ -1,8 +1,8 @@
-export default function tab() {
+export default function tab(parentSelector, tabItems, Content) {
   // tab
-  const tabParent = document.querySelector(".tabheader__items"),
-    tabs = document.querySelectorAll(".tabheader__item"),
-    tabContent = document.querySelectorAll(".tabcontent");
+  const tabParent = document.querySelector(parentSelector),
+    tabs = document.querySelectorAll(tabItems),
+    tabContent = document.querySelectorAll(Content);
 
   const hideTabContent = () => {
     tabs.forEach((item) => {

@@ -1,6 +1,5 @@
-export default function timer() {
+export default function timer(parentSelector, deadLine) {
   //timer
-  const deadLine = "2022-12-12";
 
   const getTimeRemaining = (endTime) => {
     let days, hours, minutes, seconds;
@@ -50,5 +49,5 @@ export default function timer() {
     }
   };
 
-  setClock(".timer", deadLine);
+  setClock(parentSelector, deadLine);
 }

@@ -1,7 +1,7 @@
-export default function modal() {
+export default function modal(modalSelector, modalTriggerSelector) {
   //modal
-  const modal = document.querySelector(".modal"),
-    modalTrigger = document.querySelectorAll("[data-modal]");
+  const modal = document.querySelector(modalSelector),
+    modalTrigger = document.querySelectorAll(modalTriggerSelector);
 
   modalTrigger.forEach((item) => {
     item.addEventListener("click", () => {

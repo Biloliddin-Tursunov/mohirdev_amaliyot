@@ -1,11 +1,19 @@
-export default function slider() {
+import axios from "axios";
+
+export default function slider(
+  slidesWrapperSelector,
+  nextBtn,
+  prevBtn,
+  currentSelector,
+  totalSelector
+) {
   //slider
 
-  const slidesWrapper = document.querySelector(".offer__slider-wrapper"),
-    next = document.querySelector(".offer__slider-next"),
-    prev = document.querySelector(".offer__slider-prev"),
-    current = document.querySelector("#current"),
-    total = document.querySelector("#total"),
+  const slidesWrapper = document.querySelector(slidesWrapperSelector),
+    next = document.querySelector(nextBtn),
+    prev = document.querySelector(prevBtn),
+    current = document.querySelector(currentSelector),
+    total = document.querySelector(totalSelector),
     width = window.getComputedStyle(slidesWrapper).width;
 
   class slides {
@@ -20,15 +28,15 @@ export default function slider() {
       this.getData();
     }
     async getData() {
-      const res = await fetch(this.url);
-      return await res.json();
+      const res = await axios.get(this.url);
+      return await res;
     }
     render() {
       const elem = document.createElement("div");
       let offset = 0;
       let slideIndex = 1;
 
-      this.getData().then((data) => {
+      this.getData().then(({ data }) => {
         data.forEach((item) => {
           elem.innerHTML += ` 
             <div class="offer__slide">

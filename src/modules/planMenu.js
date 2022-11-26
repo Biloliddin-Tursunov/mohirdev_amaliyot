@@ -1,4 +1,6 @@
-export default function planMenu() {
+import axios from "axios";
+
+export default function planMenu(parentSelector) {
   //planMenu
   class PlanMenu {
     constructor(src, alt, title, description, price, parentSelector) {
@@ -36,23 +38,21 @@ export default function planMenu() {
   }
 
   async function getRecource(url) {
-    const res = await fetch(url);
+    const res = await axios.get(url);
 
-    return await res.json();
+    return await res;
   }
 
-  getRecource("http://localhost:3000/planMenu").then((data) => {
-    data.forEach(
-      ({ imgUrl, imgAlt, title, decription, price, parentSelector }) => {
-        new PlanMenu(
-          imgUrl,
-          imgAlt,
-          title,
-          decription,
-          price,
-          parentSelector
-        ).render();
-      }
-    );
+  getRecource("http://localhost:3000/planMenu").then(({ data }) => {
+    data.forEach(({ imgUrl, imgAlt, title, decription, price }) => {
+      new PlanMenu(
+        imgUrl,
+        imgAlt,
+        title,
+        decription,
+        price,
+        parentSelector
+      ).render();
+    });
   });
 }

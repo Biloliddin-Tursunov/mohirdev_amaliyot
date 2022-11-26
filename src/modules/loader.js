@@ -1,7 +1,7 @@
-export default function loader() {
+export default function loader(loaderSelector) {
   //loader
   setTimeout(() => {
-    loader = document.querySelector(".loader");
+    loader = document.querySelector(loaderSelector);
     loader.style.opacity = "0";
     setTimeout(() => {
       loader.style.display = "none";

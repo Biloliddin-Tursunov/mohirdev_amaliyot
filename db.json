@@ -4,6 +4,11 @@
       "name": "telba",
       "phone": "97-596-43-44",
       "id": 1
+    },
+    {
+      "name": "telba",
+      "phone": "97-596-43-44",
+      "id": 2
     }
   ],
   "planMenu": [
@@ -12,24 +17,21 @@
       "imgAlt": "vegy",
       "title": "Plan Usual",
       "decription": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit nesciunt facere, sequi exercitationem praesentium ab cupiditate beatae debitis perspiciatis itaque quaerat id modi corporis delectus ratione nobis harum voluptatum in.",
-      "price": 10,
-      "parentSelector": ".menu .container"
+      "price": 10
     },
     {
       "imgUrl": "img/tabs/2.jpg",
       "imgAlt": "vegy",
       "title": "Plan Premium",
       "decription": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit nesciunt facere, sequi exercitationem praesentium ab cupiditate beatae debitis perspiciatis itaque quaerat id modi corporis delectus ratione nobis harum voluptatum in.",
-      "price": 10,
-      "parentSelector": ".menu .container"
+      "price": 10
     },
     {
       "imgUrl": "img/tabs/3.jpg",
       "imgAlt": "vegy",
       "title": "Plan VIP",
       "decription": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit nesciunt facere, sequi exercitationem praesentium ab cupiditate beatae debitis perspiciatis itaque quaerat id modi corporis delectus ratione nobis harum voluptatum in.",
-      "price": 10,
-      "parentSelector": ".menu .container"
+      "price": 10
     }
   ],
   "slides": [
@@ -52,6 +54,33 @@
     {
       "bgImg": "img/slider/slider5.jpg",
       "slideDesc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi iure, nam fuga vero eum numquam autem! Pariatur laborum voluptas adipisci debitis, atque ut fugit aperiam minus porro labore consectetur placeat eius aliquam, dicta, maiores ea numquam esse cum distinctio laboriosam non hic. Possimus est ipsam unde, nulla voluptas, suscipit vitae eligendi velit laboriosam eveniet quae eaque? Perferendis at ullam accusantium numquam ratione, cum repellendus labore ea tempora. Deserunt, unde optio qui at vero nisi non ipsum cumque numquam minima minus tempora nesciunt aspernatur omnis consequuntur, itaque adipisci et explicabo! Sint repudiandae dolores, nobis consectetur quasi eos. Accusantium alias quisquam qui id eligendi nisi error. Quo perferendis sapiente provident dolores sequi, fugit dignissimos facilis eaque laudantium minima nisi enim maxime! A atque labore accusantium, dolore non deserunt sunt quos incidunt, hic iste quidem animi? Culpa repellat reprehenderit minus qui quam reiciendis, maiores velit totam earum iste, modi temporibus vitae hic et esse aspernatur perferendis ipsa porro ad consectetur laborum. Ratione perferendis minima ad nostrum earum quos vero ab, amet est incidunt."
+    }
+  ],
+  "tabs": [
+    {
+      "tabTitle": "Drama",
+      "tabImg": "img/tabs/1.png",
+      "tabContent": "Drama is the specific mode of fiction represented in performance:a play, opera, mime, ballet, etc., performed in a theatre, or onradio or television.[1] Considered as a genre of poetry ingeneral, the dramatic mode has been contrasted with the epic andthe lyrical modes ever since Aristotle's Poetics (c. 335 BC)—theearliest work of dramatic theory.[2] The term 'drama' comes from aGreek word 'draō' meaning 'to do / to act' (Classical Greek:δρᾶμα, drama), which is derived from 'I do' (Classical Greek:δράω, drao). The two masks associated with drama represent thetraditional generic division between comedy and tragedy. InEnglish (as was the analogous case in many other Europeanlanguages), the word play or game."
+    },
+    {
+      "tabTitle": "Comedy",
+      "tabImg": "img/tabs/2.jpg",
+      "tabContent": "Comedy (from the Greek: κωμῳδία, kōmōdía) is a genre of fiction that consists of discourses or works intended to be humorous or amusing by inducing laughter, especially in theatre, film, stand-up comedy, television, radio, books, or any other entertainment medium. The term originated in ancient Greece: in Athenian democracy, the public opinion of voters was influenced by political satire performed by comic poets in theaters.[1] The theatrical genre of Greek comedy can be described as a dramatic performance pitting two groups, ages, genders, or societies against each other in an amusing agon or conflict. Northrop Frye depicted these two opposing sides as a 'Society of Youth'"
+    },
+    {
+      "tabTitle": "Documentary",
+      "tabImg": "img/tabs/3.jpg",
+      "tabContent": "A documentary film or documentary is a non-fictional motion-picture intended to 'document reality, primarily for the purposes of instruction, education, or maintaining a historical record'.[1] Bill Nichols has characterised the documentary in terms of 'a filmmaking practice, a cinematic tradition, and mode of audience reception [that remains] a practice without clear boundaries' .[2] Early documentary films, originally called 'actuality films', lasted one minute or less. Over time, documentaries have evolved to become longer in length, and to include more categories; some examples being: educational, observational, and docufiction. Documentaries are very informative and are often used within schools, as a resource to teach various principles. Documentary filmmakers have a responsibility to be truthful to their vision of the world without intentionally misrepresenting a topic."
+    },
+    {
+      "tabTitle": "Sport",
+      "tabImg": "img/tabs/4.jpg",
+      "tabContent": "Sport pertains to any form of competitive physical activity or game[1] that aims to use, maintain or improve physical ability and skills while providing enjoyment to participants and, in some cases, entertainment to spectators.[2] Sports can, through casual or organized participation, improve one's physical health. Hundreds of sports exist, from those between single contestants, through to those with hundreds of simultaneous participants, either in teams or competing as individuals. In certain sports such as racing, many contestants may compete, simultaneously or consecutively, with one winner; in others, the contest (a match) is between two sides, each attempting to exceed the other. Some sports allow."
+    },
+    {
+      "tabTitle": "Fantastic",
+      "tabImg": "img/tabs/5.jpg",
+      "tabContent": "The fantastic requires the fulfillment of three conditions. First,the text must oblige the reader to consider the world of thecharacters as a world of living persons and to hesitate between anatural or supernatural explanation of the events described.Second, this hesitation may also be experienced by a character;thus the reader's role is so to speak entrusted to a character,and at the same time the hesitation is represented, it becomes oneof the themes of the work—in the case of naive reading, the actualreader identifies himself with the character. Third, the readermust adopt a certain attitude with regard to the text: he willreject allegorical as well as 'poetic' interpretations"
     }
   ]
 }

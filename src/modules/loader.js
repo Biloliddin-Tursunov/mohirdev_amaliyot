@@ -6,5 +6,5 @@ export default function loader() {
     setTimeout(() => {
       loader.style.display = "none";
     });
-  }, 1000);
+  }, 2000);
 }
